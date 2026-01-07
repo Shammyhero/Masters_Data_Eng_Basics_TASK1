@@ -36,3 +36,10 @@ This will write `bitcoin.avro` and print a small sample of rows read back from t
 Notes:
 - Schema inference is basic: ints->long, floats->double, bool->boolean, datetimes->string, else string.
 - Nullable columns become Avro unions ["null", type] with default null.
+
+Here's the use case:
+
+
+
+<img width="723" height="203" alt="Screenshot 2026-01-07 at 14 01 58" src="https://github.com/user-attachments/assets/9eda01e0-587b-4a3e-a285-3b9fbfa34ecb" />
+
